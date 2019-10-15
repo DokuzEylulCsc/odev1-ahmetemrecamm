@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+  <h1>Ahmet Emre ÇAM 2013280043</h1>
+<title>Ahmet Emre Çam 2013280043</title>
 <body>
 <h2>2019 Güz Döneminin ilk ödevi</h2>
 <label for="id1">Metin kutusu 1</label>
-<input type='text' id='id1' /> 
+<input type="number" onkeypress='return event.keyCode >= 48 && event.keyCode <= 57' id='id1' />
 <br>
 <label for="id2">Metin kutusu 2</label>
-<input type='text' id='id2' /> 
+<input type="number" onkeypress='return event.keyCode >= 48 && event.keyCode <= 57' id='id2' />
 <br><br>
 <input type="button" id="toplama" value="Topla">
 <br><br>
@@ -26,7 +28,7 @@
 <input type='text' id='id4' /> 
 <br><br>
   
-<<input type="button" id="yap" value="Yapistir">
+<input type="button" id="yap" value="Yapistir">
   <script>      
             var btn=document.getElementById("yap");
             btn.onclick=function(){
@@ -34,7 +36,6 @@
                 var s4=(document.getElementById("id4").value);
                 alert(s3+s4);
             }
-        </script>
-  
+        </script>  
 </body>
 </html>
